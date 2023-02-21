@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="row d-flex g-5 justify-content-center pt-5">
+        {% for category in categories %}
+            <div class="p-3 border border-dark border-5" style="width: 1140px;">
+                <div class="d-flex justify-content-start">
+                    <h3 class="ps-3">{{ category.name }}</h3>
+                </div>
+                <div class="text-end">
+                    <a class="btn btn-primary text-end" href="{% url 'category_update' category.id %}" role="button">Edit</a>
+                    <a class="btn btn-danger text-end" href="{% url 'category_delete' category.id %}" role="button">Delete</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

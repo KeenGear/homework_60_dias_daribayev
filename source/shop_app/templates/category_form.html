@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% if category %}Update{% else %}Create{% endif %} Category</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        {% if category %}
+            <button type="submit" name="update" value="{{ category.id }}">Update</button>
+            <button type="submit" name="delete" value="{{ category.id }}">Delete</button>
+        {% else %}
+            <button type="submit" name="create">Create</button>
+        {% endif %}
+    </form>
+{% endblock %}

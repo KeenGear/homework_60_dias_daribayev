@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="row">
+        {% for object in object_list %}
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 mt-4">
+                            <img src="{{ object.image_url }}" class="card-img" alt="{{ object.title }}">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ object.title }}</h5>
+                                <p class="card-text">{{ object.category }}</p>
+                                <p class="card-text">Price: ${{ object.price }}</p>
+                                <a href="{% url 'product_detail' object.id %}">See More>>></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

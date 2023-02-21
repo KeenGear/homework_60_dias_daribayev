@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{ object.image_url }}" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h2>{{ object.title }}</h2>
+                <h6 class="mb-2">{{ object.category }}</h6>
+                <p class="mb-2">Price: {{ object.price }}</p>
+                <p class="mb-2">{{ object.description }}</p>
+                <span style="color: gray">{{ object.created }}</span>
+                <br>
+                <a href="{% url 'product_update' object.id %}" class="btn btn-primary mr-1 mt-5">Edit</a>
+                <a class="btn btn-danger text-end mt-5" href="{% url 'product_delete' object.id %}" role="button">Delete</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
