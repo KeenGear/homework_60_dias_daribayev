@@ -1,0 +1,18 @@
+[
+{
+    "model": "shop_app.category",
+    "pk": 5,
+    "fields": {
+        "name": "Bread",
+        "description": "Diffidently just a bread"
+    }
+},
+{
+    "model": "shop_app.category",
+    "pk": 6,
+    "fields": {
+        "name": "Ceramic",
+        "description": "alsbmals;mva;l"
+    }
+}
+]

@@ -1,0 +1,26 @@
+[
+{
+    "model": "shop_app.shop",
+    "pk": 7,
+    "fields": {
+        "title": "Baguette",
+        "category": 5,
+        "price": "15.00",
+        "description": "Some baguette",
+        "image_url": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image_2x/public/recipe_legacy/8-3-large.jpg?itok=dyF-GrJR",
+        "created": "2023-02-21T07:13:32.312Z"
+    }
+},
+{
+    "model": "shop_app.shop",
+    "pk": 8,
+    "fields": {
+        "title": "Ceramic Mug",
+        "category": 6,
+        "price": "93.00",
+        "description": "Just a mug",
+        "image_url": "https://www.samovartea.com/wp-content/uploads/2019/10/Chai-Mug-Side-View-1-2048x1936.jpg",
+        "created": "2023-02-21T07:15:41.285Z"
+    }
+}
+]
