@@ -10,7 +10,7 @@ class Category(models.Model):
 
 class Shop(models.Model):
     title = models.CharField(max_length=100)
-    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='products')
     price = models.DecimalField(max_digits=8, decimal_places=2, null=False, blank=False)
     description = models.TextField(max_length=1200)
     image_url = models.URLField(blank=True)
