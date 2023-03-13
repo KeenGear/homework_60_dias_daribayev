@@ -13,6 +13,10 @@
                                 <h5 class="card-title">{{ object.title }}</h5>
                                 <p class="card-text">{{ object.category }}</p>
                                 <p class="card-text">Price: ${{ object.price }}</p>
+                                <form method="POST" action="{% url 'cart_add' object.id %}">
+                                    {% csrf_token %}
+                                    <button type="submit">Add to cart</button>
+                                </form>
                                 <a href="{% url 'product_detail' object.id %}">See More>>></a>
                             </div>
                         </div>
