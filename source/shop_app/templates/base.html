@@ -11,17 +11,19 @@
   <div class="container">
     <a class="navbar-brand" href="#"><strong>My Store</strong></a>
     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <a class="btn btn-link" href="{% url 'products_list' %}" role="button">Products</a>
-        <p>|</p>
-        <a class="btn btn-link" href="{% url 'category_list' %}" role="button">Categories</a>
-        <p>|</p>
-        <a class="btn btn-link" href="{% url 'product_create' %}" role="button">Add Product</a>
-        <p>|</p>
-        <a class="btn btn-link" href="{% url 'category_create' %}" role="button">Add Category</a>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{% url 'products_list' %}">Home</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'category_list' %}">Categories</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'product_create' %}">Add Product</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'category_create' %}">Add Category</a></li>
+            <li class="breadcrumb-item"><a href="{% url 'cart_detail' %}">Cart</a></li>
+          </ol>
+        </nav>
     </div>
   </div>
 </nav>
-    <div class="container d-flex">
+    <div class="container d-flex mt-5">
         {% block content %}
         {% endblock %}
     </div>
