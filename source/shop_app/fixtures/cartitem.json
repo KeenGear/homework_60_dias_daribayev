@@ -1,0 +1,11 @@
+[
+{
+    "model": "shop_app.cartitem",
+    "pk": 2,
+    "fields": {
+        "cart": 1,
+        "shop": 1,
+        "quantity": 1
+    }
+}
+]

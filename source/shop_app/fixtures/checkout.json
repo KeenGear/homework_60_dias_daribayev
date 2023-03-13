@@ -1,0 +1,26 @@
+[
+{
+    "model": "shop_app.checkout",
+    "pk": 1,
+    "fields": {
+        "name": "Alan",
+        "email": "Alan@deeds.com",
+        "address": "Earth 1",
+        "city": "Atlantis",
+        "state": "Atlantis",
+        "zip_code": "111111"
+    }
+},
+{
+    "model": "shop_app.checkout",
+    "pk": 2,
+    "fields": {
+        "name": "Ken",
+        "email": "asda@mail.com",
+        "address": "View Point",
+        "city": "Lasdas",
+        "state": "LS",
+        "zip_code": "22222"
+    }
+}
+]
