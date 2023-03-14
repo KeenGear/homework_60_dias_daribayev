@@ -15,13 +15,20 @@ class ProductView(DetailView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['title'] = self.object.title
-        context['fields'] = ['price', 'image_url', 'category', 'description']
+        context['fields'] = ['price', 'image_url', 'category', 'description', 'qty']
         return context
 
 
 class ProductList(ListView):
     model = Shop
     template_name = 'product_list.html'
+    ordering = ['title']
+    paginate_by = 3
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        queryset = queryset.filter(qty__gt=1)
+        return queryset
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -38,7 +45,7 @@ class ProductCreate(CreateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['title'] = 'Create Task'
+        context['title'] = 'Create Product'
         return context
 
 
@@ -50,7 +57,7 @@ class ProductUpdate(UpdateView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        context['title'] = 'Create Task'
+        context['title'] = 'Create Product'
         return context
 
 
@@ -64,6 +71,7 @@ class CategoryList(ListView):
     model = Category
     template_name = 'category_list.html'
     context_object_name = 'categories'
+    ordering = ['name']
 
 
 class CategoryCreate(CreateView):
