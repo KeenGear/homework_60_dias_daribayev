@@ -6,9 +6,88 @@
         "title": "Nothing Phone 1",
         "category": 1,
         "price": "1200.00",
-        "description": "smartphone",
+        "qty": 901,
+        "description": "The phone (1) features a transparent design, similar to that of its other product, the Nothing ear (1). This means that the user can see the internal components of the device, giving something that is considered to be \"a very distinct and iconic design language of our own.\"[19] The phone consists of 400 components. It has flat sides, similar to the iPhone 12. It has an IP53 splash, water and dust resistance rating.",
         "image_url": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone1-1.jpg",
         "created": "2023-03-13T09:32:19.911Z"
+    }
+},
+{
+    "model": "shop_app.shop",
+    "pk": 2,
+    "fields": {
+        "title": "Hogwarts Legacy",
+        "category": 2,
+        "price": "40.00",
+        "qty": 920,
+        "description": "Hogwarts Legacy is a 2023 action role-playing game developed by Avalanche Software and published by Warner Bros. Games under its Portkey Games label. The game is set in the Wizarding World universe, taking place in the late 1800s, a century prior to the events chronicled in the Harry Potter novels. The player controls a student enrolled in the Hogwarts School of Witchcraft and Wizardry who learns to wield an array of magical abilities and objects. With the assistance of fellow students and professors, the protagonist embarks on a journey to unearth an ancient secret that has long been concealed within the wizarding world.",
+        "image_url": "https://upload.wikimedia.org/wikipedia/en/7/7c/Hogwarts-Legacy-cover.jpg",
+        "created": "2023-03-14T05:09:47.856Z"
+    }
+},
+{
+    "model": "shop_app.shop",
+    "pk": 3,
+    "fields": {
+        "title": "Fitbit Charge 5",
+        "category": 1,
+        "price": "12.00",
+        "qty": 90,
+        "description": "Fitbit Charge 5 + Premium connects the dots between your activity, sleep and stress so you can make the best decisions for your body, mind and health. It all starts with your 6-month Premium membership and Daily Readiness, a score based on activity, sleep and heart rate variability (HRV) that helps you optimize your workout routine. And you’ll always have motivation to reach new goals with hundreds of guided workouts, a gallery of refreshing mindfulness sessions plus the fitness features you know and love like Active Zone Minutes and built-in GPS. Fitbit is part of the Google family. Requires use of Fitbit app with compatible iPhone or Android devices. A Google account will be required.",
+        "image_url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61xh+Cewq5L._AC_SL1500_.jpg",
+        "created": "2023-03-14T05:12:19.143Z"
+    }
+},
+{
+    "model": "shop_app.shop",
+    "pk": 4,
+    "fields": {
+        "title": "LEOPOLD FC750R White/Grey PD 87Keys",
+        "category": 1,
+        "price": "119.00",
+        "qty": 2009,
+        "description": "Keyboard",
+        "image_url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/51lowTgh3pL._AC_.jpg",
+        "created": "2023-03-14T05:19:19.766Z"
+    }
+},
+{
+    "model": "shop_app.shop",
+    "pk": 5,
+    "fields": {
+        "title": "Kingston 240GB A400 SATA 3 2.5\"",
+        "category": 1,
+        "price": "16.99",
+        "qty": 211,
+        "description": "Fast start up, loading and file transfers\r\nMore reliable and durable than a hard drive\r\nMultiple capacities with space for applications or a hard drive replacement",
+        "image_url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91RL+MhTWbL._AC_SL1500_.jpg",
+        "created": "2023-03-14T05:20:47.823Z"
+    }
+},
+{
+    "model": "shop_app.shop",
+    "pk": 6,
+    "fields": {
+        "title": "Doom: Eternal (Xbox One)",
+        "category": 2,
+        "price": "17.66",
+        "qty": 76,
+        "description": "Slayer Threat Level at Maximum - gain access to the latest demon-killing tech with the DOOM Slayer's advanced Praetor Suit, including a shoulder-mounted flamethrower and the retractable wrist-mounted DOOM Blade. Upgraded guns and mods, such as the Super Shotgun's new distance-closing Meat Hook attachment, and abilities like the Double Dash make you faster, stronger, and more versatile than ever\r\nUnholy Trinity - you can't kill demons when you're dead, and you can't stay alive without resources. Take what you need from your enemies: Glory kill for extra health, incinerate for armor, and chainsaw demons to stock up on ammo. These tools are the key to your survival and becoming the ultimate demon-slayer\r\nA New Class of (Destructible) Demon - obliterate more demons than ever before, each with unique attacks and abilities. Fan-favorite classics such as the Pain Elemental, Archvile, and Arachnotron make their return, while a horde of totally-new demons join the roster including the DOOM Hunter, Marauder, and the Gladiator. Rip apart your favorite demons to the core with DOOM Eternal's \"destructible demons\" system and take your power fantasy to new levels",
+        "image_url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81zVNA8JzhL._SL1500_.jpg",
+        "created": "2023-03-14T05:21:52.091Z"
+    }
+},
+{
+    "model": "shop_app.shop",
+    "pk": 7,
+    "fields": {
+        "title": "Batman Arkham Collection (Standard Edition) (Xbox One)",
+        "category": 2,
+        "price": "20.92",
+        "qty": 12,
+        "description": "The Batman Arkham collection brings you the definitive versions of Rocksteady's Arkham trilogy games, including all post-launch content, in one complete collection.\r\n\r\nexperience two of the most critically acclaimed titles of the last generation - Batman: Arkham Asylum and Batman: Arkham City, with fully remastered and updated visuals. Complete your experience with the Explosive finale to the Arkham series In Batman: Arkham Knight. Become the Batman and utilise a wide range of gadgets and abilities to face off against Gotham's most dangerous villains, finally facing the ultimate threat against the city that Batman is sworn to protect.",
+        "image_url": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81j2zn6kQJL._SL1500_.jpg",
+        "created": "2023-03-14T05:22:43.940Z"
     }
 }
 ]

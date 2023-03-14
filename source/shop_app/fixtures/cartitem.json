@@ -5,7 +5,7 @@
     "fields": {
         "cart": 1,
         "shop": 1,
-        "quantity": 1
+        "quantity": 2
     }
 }
 ]

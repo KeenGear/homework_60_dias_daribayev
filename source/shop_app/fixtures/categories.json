@@ -6,5 +6,13 @@
         "name": "Tech",
         "description": "Technology stuff"
     }
+},
+{
+    "model": "shop_app.category",
+    "pk": 2,
+    "fields": {
+        "name": "Games",
+        "description": "Description on games"
+    }
 }
 ]
